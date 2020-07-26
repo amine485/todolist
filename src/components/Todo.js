@@ -27,7 +27,7 @@ return (
 return(
     
 <div > 
-    <p  contenteditable="true" id="textarea"  key={todo.id}>{todo.text}</p>  
+    <p  contenteditable="true" id="text"  key={todo.id}>{todo.text}</p>  
     <button  onClick={() =>handleRemove(todo.id)} >X</button>
 
 </div> 
